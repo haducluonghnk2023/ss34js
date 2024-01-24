@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#myText {
+  font-size: 30px;
+  color: red;
+}
+</style>
+</head>
+<body>
+
+<p id="myText">This text is optional!</p>
+
+<button onclick="changeStyle()">Thay đổi style</button>
+
+<script>
+function changeStyle() {
+    var x = document.getElementById("myText");
+    x.style.color = "yellow";
+}
+</script>
+
+</body>
+</html>

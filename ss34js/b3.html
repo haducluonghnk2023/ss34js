@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#myText {
+  font-size: 30px;
+  color: red;
+}
+</style>
+</head>
+<body>
+
+<p id="myText">Chào mừng đến với trang web của chúng tôi!</p>
+
+<button onclick="changeText()">Thay đổi nội dung</button>
+
+<script>
+function changeText() {
+    var x = document.getElementById("myText");
+    x.innerHTML = "Nội dung mới của dòng chữ!";
+}
+</script>
+
+</body>
+</html>
